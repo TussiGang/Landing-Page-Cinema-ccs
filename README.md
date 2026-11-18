@@ -1,7 +1,9 @@
-Landing Page Cinema
+Landing Landing Page Cinema
+
 Repositorio en GitHub con Landing Page con css
 
-Integrantes
-Juan Fer
-Jeckson
-Kevin
+# Integrantes
+- Juan Fer
+- Jeckson
+- Kevin
+
