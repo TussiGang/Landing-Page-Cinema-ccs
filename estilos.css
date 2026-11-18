@@ -1,0 +1,110 @@
+/* Estilos generales de toda la página */
+body {
+    background-color: #171717;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Limita el ancho del contenido y lo centra */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #ffffff;
+}
+
+.subtitulo {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Tabla de productos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #777777;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+}
+
+/* Galería de imágenes */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.galeria img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Línea que separa las secciones */
+hr {
+    border: 0;
+    border-top: 1px solid #666666;
+    margin: 30px 0;
+}
+
+/* Formulario de contacto */
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Botón de enviar */
+button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #b92734;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .galeria img {
+        width: 100%;
+        height: auto;
+    }
+}
